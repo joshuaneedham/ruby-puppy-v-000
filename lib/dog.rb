@@ -6,4 +6,8 @@ class Dog
     @name = name
     @@all << self
   end
+
+  def self.all
+    @@all.self do |name|
+      puts name.self
 end
