@@ -10,4 +10,6 @@ class Dog
   def self.all
     @@all.self do |name|
       puts name.self
+    end
+  end
 end
